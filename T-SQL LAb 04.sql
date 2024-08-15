@@ -1,8 +1,6 @@
 USE WattsALoan
 GO
 
-DELETE from Payments;
-
 -- Declare all the variables
 DECLARE @paymentdate DATE;
 DECLARE @employeeid INT;
